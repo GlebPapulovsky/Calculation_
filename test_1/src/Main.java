@@ -142,19 +142,13 @@ class Main {
     }
 
     public static void main(String[] args) {
-        /* System.out.println("Input : ");
+        System.out.println("Input : ");
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
 
 
-        System.out.println("Output:\n" + calc(str));*/
-        String[] roman  = new String[]{"I","II","III","IV","V","VI","VII","VIII","IX","X"};
-        for (String counter_0:roman){
-            for (String counter_1:roman){
-                System.out.println("input : "+counter_0 + " * "+counter_1 + "\n" +"Output:"  );
-                System.out.println(calc(counter_0+ " * " +counter_1));
-            }
-        }
+        System.out.println("Output:\n" + calc(str));
+        
 
 
 
